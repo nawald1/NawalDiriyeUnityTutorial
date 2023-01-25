@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+
 
 public class PipeMiddleScript : MonoBehaviour
 {
@@ -23,6 +25,5 @@ public class PipeMiddleScript : MonoBehaviour
         {
             logic.addScore(1);
         }
-      
     }
 }
